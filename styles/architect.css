@@ -77,7 +77,7 @@ nav li a{
 
 /* main styles */
 main{
-    max-width: 1440px;
+     max-width: 1440px; 
     margin: 0 auto;
 }
 .teams-container{
@@ -102,6 +102,43 @@ main{
 .teams-content-title{
    
     font-size: 2.8rem;
+}
+/* features style */
+.features{
+     display: flex; 
+    justify-content: space-around;
+   gap:30px;
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+  
+}
+.features-content{
+    margin-right: 50px;
+}
+.features-content .card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features-content .section-title{
+    border-left:5px solid #FF900E;
+    padding-left: 20px;
+
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    padding: 40px;
+    text-align: center;
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+}
+.ten-years-badge p{
+    font-size: 1.5rem;
 }
 .facts{
     padding-left: 70px;
